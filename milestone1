@@ -1,0 +1,38 @@
+<doctype html>
+<html lang="en">
+<head>
+    <title>Oasis</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content+"noindex, nofollow">
+</head>
+<body>
+    <header>
+        <h1>Oasis</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> &nbsp;
+        <a href="compeetition.html">Competition</a> &nbsp;
+        <a href="audience.html">Audience</a> &nbsp;
+    </nav>
+    <main>
+        <h2>Website Summary</h2>
+        <ol> 
+            <li><h4>What Content will the site contain?</h4></li>
+                <ul>
+                    <li>The site will have information about our garden center. Photos of the gardens, activities, and events. It will also describe the different kind of events and exhibits we have. It will have a map of the properties that labels the diffent attractions. It will have information about events that will be held, a contact page, ticket purchasing, and important dates.</li>
+                </ul>
+             <li><h4>Where will you get all of the content for your site?</h4></li>
+                <ul>
+                    <li>I will upload photos that I have taken of nature and stock images.</li>
+                </ul>
+             <li><h4>Why should users care about the focus of the site?</h4></li>
+                <ul>
+                    <li></li>
+                </ul>
+        </ol>
+    </main>
+</body>
+<footer>
+
+</footer>
+</html>
