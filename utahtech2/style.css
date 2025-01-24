@@ -10,7 +10,7 @@ header {
     font-family: Georgia;
 }
 
-header h1 {
+h1 {
         line-height: 140%;
         padding: .5rem;
 }
@@ -19,7 +19,7 @@ nav {
     background-color:#F3F3F3;
 }
 
-header h2{
+h2{
     color:#424242;
     font-family: Georgia;
 }
