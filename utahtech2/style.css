@@ -1,35 +1,35 @@
- body  (
+ body  {
     background-color:#FFFFFF; 
-    color:#666666 
+    color:#666666;
     font-family: Verdana, Arial;
-)
-header (
+ }
+header {
     backdrop-color:#003058;
-    color:#FFFFFF
+    color:#FFFFFF;
     font-family: Georgia;
-)
+}
 header h1 {
         line-height: 140%;
         padding: .5rem;
 }
-nav (
+nav {
     background-color:#F3F3F3;
-)
-header h2(
+}
+header h2{
     color:#424242;
     font-family: Georgia;
-)
-.ut(
+}
+.ut{
     color:#BA1C21;
     font-weight: Bold;
-)
-footer(
+}
+footer{
     font-size:.70rem;
     font-style: italic;
     text-align: Center;
-)
-#wrapper(
+}
+#wrapper{
     width:80%;
     margin-right:auto;
     margin-left:auto;
-)
+}
