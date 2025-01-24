@@ -40,3 +40,8 @@ footer{
     margin-right:auto;
     margin-left:auto;
 }
+
+dt{
+    color:#003058;
+    font-weight: Bold;
+}
