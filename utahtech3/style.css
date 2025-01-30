@@ -12,18 +12,36 @@ header {
 }
 
 h1 {
+        background-image: utahtechlogo.svg;
+        background-position: :right;
+        background-repeat: no-repeat;
+        background-origin: content-box;
         line-height: 140%;
-        padding:.5rem;
+        padding-left: 1em;
+        margin-bottom: 0;
 }
 
 nav {
     background-color:#F3F3F3;
     font-weight: bold;
+    padding-right: .05rem;
+    padding-top: .05rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
 }
 
 h2{
     color:#424242;
     font-family: Georgia;
+}
+
+h3{
+    color: #003058;
+}
+
+main{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 dt{
@@ -40,6 +58,7 @@ footer{
     font-size:.70rem;
     font-style: italic;
     text-align: Center;
+    padding: 1rem;
 }
 
 #wrapper{
