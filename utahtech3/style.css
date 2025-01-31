@@ -31,7 +31,7 @@ nav {
 }
 
 .homehero {
-    background-image: url(utahtechimages/homehero.jpg);
+    background-image: url('utahtechimages/homehero.jpg');
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
