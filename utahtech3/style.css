@@ -18,6 +18,26 @@ h1 {
         background-origin:content-box;
         line-height:140%;
         padding-left:1em;
+        margin-bottom: 0;
+}
+
+nav {
+    background-color:#F3F3F3;
+    font-weight: bold;
+    padding-right:.05rem;
+    padding-top:.05rem;
+    padding-bottom:0.5rem;
+    padding-left:2rem;
+    text-decoration: none;
+}
+
+h2{
+    color:#424242;
+    font-family: Georgia;
+}
+
+h3{
+    color: #003058;
 }
 
 .homehero {
@@ -42,25 +62,6 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-nav {
-    background-color:#F3F3F3;
-    font-weight: bold;
-    padding-right:.05rem;
-    padding-top:.05rem;
-    padding-bottom:0.5rem;
-    padding-left:2rem;
-    text-decoration: none;
-}
-
-h2{
-    color:#424242;
-    font-family: Georgia;
-}
-
-h3{
-    color: #003058;
 }
 
 main{
