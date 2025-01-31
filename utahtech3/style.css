@@ -12,16 +12,15 @@ header {
 }
 
 homehero {
-    background-image: image-set(utahtech3/homehero);
+    background-image: url(utahtechimages/homehero.jpg);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    alt: "school campus";
 }
 
 studenthero{
-    background-image: image-set(utahtech3/studenthero);
+    background-image: url(utahtech3/studenthero);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +28,7 @@ studenthero{
 }
 
 facultyhero {
-    background-image: image-set(utahtech3/facultyhero);
+    background-image: url(utahtech3/facultyhero);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
