@@ -20,16 +20,6 @@ h1 {
         padding-left:1em;
 }
 
-nav {
-    background-color:#F3F3F3;
-    font-weight: bold;
-    padding-right:.05rem;
-    padding-top:.05rem;
-    padding-bottom:0.5rem;
-    padding-left:2rem;
-    text-decoration: none;
-}
-
 .homehero {
     background-image: url(utahtechimages/homehero.jpg);
     height: 300px;
@@ -52,6 +42,16 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+nav {
+    background-color:#F3F3F3;
+    font-weight: bold;
+    padding-right:.05rem;
+    padding-top:.05rem;
+    padding-bottom:0.5rem;
+    padding-left:2rem;
+    text-decoration: none;
 }
 
 h2{
