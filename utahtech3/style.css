@@ -11,30 +11,6 @@ header {
     font-family: Georgia;
 }
 
-homehero {
-    background-image: url(utahtechimages/homehero.jpg);
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-studenthero{
-    background-image: url(utahtech3/studenthero);
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-facultyhero {
-    background-image: url(utahtech3/facultyhero);
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 h1 {
         background-image: url(utahtechlogo.svg);
         background-position:right;
@@ -53,6 +29,29 @@ nav {
     padding-bottom:0.5rem;
     padding-left:2rem;
     text-decoration: none;
+}
+
+homehero {
+    background-image: url(utahtechimages/homehero.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+studenthero{
+    background-image: url(utahtech3/studenthero);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+facultyhero {
+    background-image: url(utahtech3/facultyhero);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h2{
