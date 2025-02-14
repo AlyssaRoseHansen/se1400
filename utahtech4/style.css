@@ -42,13 +42,14 @@ nav {
     grid-column: 2 / -2;
     grid-row: 2 / 3;
     background-color: #424242;
+    padding: 2rem;
 }
-
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 nav li {
