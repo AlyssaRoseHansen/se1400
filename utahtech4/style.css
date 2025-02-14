@@ -52,7 +52,7 @@ nav ul {
     padding: 0px;
     margin: 0px;
     display: flex;
-    flex-flow: row, nowrap;
+    flex-flow: row nowrap;
 }
 
 nav ul li {
