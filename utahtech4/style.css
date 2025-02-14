@@ -22,16 +22,6 @@ h1 {
         margin-bottom:0;
 }
 
-nav {
-    background-color:#F3F3F3;
-    font-weight: bold;
-    padding-right:.05rem;
-    padding-top:.05rem;
-    padding-bottom:0.5rem;
-    padding-left:2rem;
-    text-decoration: none;
-}
-
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -46,6 +36,7 @@ nav ul li a {
     text-decoration: none;
     color: #F3F3F3;
     background-color: #424242;
+    padding: 20px;
 }
 
 h2{
