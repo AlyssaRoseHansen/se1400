@@ -9,6 +9,7 @@ header {
     background-color:#003058;
     color:#FFFFFF;
     font-family: Georgia;
+    text-decoration: none;
 }
 
 h1 {
@@ -22,7 +23,12 @@ h1 {
         margin-bottom:0;
 }
 
-nav ul{
+nav {
+    front-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
