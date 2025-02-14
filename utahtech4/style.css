@@ -43,23 +43,34 @@ nav {
     grid-row: 2 / 3;
     background-color: #424242;
     padding: 2rem;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     display: flex;
+    flex-flow: row, nowrap;
 }
 
-nav li {
+nav ul li {
     display: inline-block;
+    width: 100%;
 }
 
 nav a {
     text-decoration: none;
-    color: #F3F3F3;
+    color: #FFFFFF;
     background-color: #424242;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #BA1C21;
 }
 
 h2{
