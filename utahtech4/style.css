@@ -28,14 +28,6 @@ h1 {
         margin-bottom:0;
 }
 
-nav {
-    font-weight: bold;
-    padding-top:.05rem;
-    padding-bottom:0.5rem;
-    text-decoration: none;
-    width: 100%;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
