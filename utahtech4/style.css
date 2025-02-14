@@ -1,8 +1,13 @@
+ * {
+    box-sizing: border-box;
+ }
+ 
  body  {
     background: linear-gradient(to bottom, #eeeeee, #FFFFFF); 
     background-attachment: fixed;
     color:#666666;
     font-family: Verdana, Arial;
+    margin: 0px;
  }
 
 header {
@@ -38,14 +43,13 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
     text-decoration: none;
     color: #F3F3F3;
-    background-color: #424242;
-    display: block;
+    background-color: #424242;;
 }
 
 h2{
@@ -104,11 +108,7 @@ footer{
 }
 
 #wrapper{
-    background-color: #ffffff;
-    width:80%;
-    min-width: 960px;
-    max-width: 2048px;
-    box-shadow: 0px 3px 3px rgba(66, 66, 66, 0.3);
-    margin-right:auto;
-    margin-left:auto;
+    display: grid;
+    grid-auto-rows: minmax(0px, auto);
+    grid-template-columns: minmax(0p, 1fr) repeat(6, minmax(0px, 175px)) minmax(0px, 1fr);
 }
