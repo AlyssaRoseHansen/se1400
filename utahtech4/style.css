@@ -24,6 +24,16 @@ h1 {
 }
 
 nav {
+    background-color:#F3F3F3;
+    font-weight: bold;
+    padding-right:.05rem;
+    padding-top:.05rem;
+    padding-bottom:0.5rem;
+    padding-left:2rem;
+    text-decoration: none;
+}
+
+nav {
     font-weight: bold;
     text-decoration: none;
 }
