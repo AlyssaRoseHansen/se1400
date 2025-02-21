@@ -9,8 +9,8 @@ body  {
     font-family: Verdana, Arial;
     margin: 0px;
     display: grid;
-    grid-template-columns: .5fr repeat(2, 3fr) .5fr;
-    grid-template-rows: .5fr 5fr .5fr repeat(2, 3fr) .5fr;
+    grid-template-columns: .5fr repeat(3, 3fr) .5fr;
+    grid-template-rows: .5fr 4fr .5fr repeat(2, 3fr) .5fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
  }
