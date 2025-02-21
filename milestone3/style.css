@@ -80,11 +80,7 @@ main{
         grid-template-rows: 170px 170px 170px 170px 170px;
 }
 
-main #cafe {
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #f3f3e6;
+main #cafe p {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     background-position: right;
@@ -97,10 +93,7 @@ main #cafe img {
     grid-row: 1 / 2;
 }
 
-main #cake {
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #f3f3e6;
+main #cake p {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
     background-position: left;
@@ -112,25 +105,25 @@ main #cake img {
     grid-row: 2 / 3;
 }
 
-main #cake input {;
+main #cake p {;
     background-position: left;
     grid-column: 3 / 5;
     grid-row: 2 / 3;
 }
 
-main #fountain {
+main #fountain p {
     background-size: cover;
     background-repeat: no-repeat;
     color: #f3f3e6;
-    grid-column: 1 / 3;
-    grid-row: 4 / 5;
-    background-position: right;
-}
-
-main #fountain img {
     background-position: left;
     grid-column: 3 / 5;
     grid-row: 4 / 5;
+}
+
+main #fountain img {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    background-position: right;
 }
 
 footer{
