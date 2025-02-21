@@ -45,6 +45,30 @@ nav {
     top: 0;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 1rem 0rem;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #046d20ba;
+}
+
 h2{
     color:#424242;
     font-family: Georgia;
