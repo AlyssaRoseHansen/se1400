@@ -11,7 +11,7 @@ body  {
  }
 
 header {
-    background-color:#96c59c;
+    background-color:#8ebe95cc; 
     color:#FFFFFF;
     font-family: Georgia;
     text-decoration: none;
@@ -20,7 +20,7 @@ header {
 }
 
 h1 {
-        background-image: url(utahtechimages/utahtechlogo.svg);
+        background-image: url(Photos/pexels-pixabay-158063.jpg)
         background-position:right;
         background-repeat:no-repeat;
         background-origin:content-box;
@@ -40,7 +40,7 @@ nav {
     text-decoration: none;
     grid-column: 2 / -2;
     grid-row: 1 / 2;
-    background-color: #96c59c;
+    background-color: #8ebe95cc;
     position: sticky;
     top: 0;
 }
@@ -67,11 +67,6 @@ nav a {
 
 nav a:hover {
     background-color: #046d20ba;
-}
-
-h2{
-    color:#424242;
-    font-family: Georgia;
 }
 
 h3{
