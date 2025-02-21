@@ -12,13 +12,9 @@ body  {
 
 header { 
     text-decoration: none;
-    grid-column: 1/ -1;
+    grid-column: 1/ 4;
     grid-row: 1 / 4;
     background-color: transparent;
-}
-
-header img {
-    position: absolute;
 }
 
 header img:first-of-type {
@@ -85,6 +81,7 @@ main #cafe {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-position: right;
+    background-color: #6a8e70;
 }
 
 main #cafe img {
