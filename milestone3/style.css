@@ -79,10 +79,10 @@ nav a:hover {
 
 #cafe img {
     background-position: left;
+    height: 150px;
 }
 
 #cake {
-    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     grid-column: 2 / -2;
@@ -91,10 +91,10 @@ nav a:hover {
 
 #cake img {
     background-position: right;
+    height: 200px;
 }
 
 #fountain {
-    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     grid-column: 2 / -2;
@@ -103,6 +103,7 @@ nav a:hover {
 
 #fountain img {
     background-position: left;
+    height: 150px;
 }
 
 main{
@@ -110,7 +111,7 @@ main{
     padding-right: 2rem;
     grid-column: 2 / -2;
     grid-row: 4 / 5;
-    background-color: #d3c3a6;
+    background-color: #f2e1c1;
 }
 
 main img {
@@ -121,11 +122,6 @@ main img {
 dt{
     color:#003058;
     font-weight: Bold;
-}
-
-.ut{
-    color:#BA1C21;
-    font-weight: bold;
 }
 
 footer{
