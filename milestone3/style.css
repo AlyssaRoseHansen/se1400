@@ -21,7 +21,7 @@ body  {
 
 header { 
     text-decoration: none;
-    background-image: url("pexels_pixabay_158063.jpg");
+    background-image: url("Photos/pexels-pixabay-158063.jpg");
     grid-column: 1/ 6;
     grid-row: 1 / 4;
 }
