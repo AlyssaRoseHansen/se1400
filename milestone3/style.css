@@ -79,7 +79,6 @@ nav a:hover {
 
 #cafe img {
     background-position: left;
-    height: 150px;
 }
 
 #cake {
@@ -91,7 +90,6 @@ nav a:hover {
 
 #cake img {
     background-position: right;
-    height: 200px;
 }
 
 #fountain {
@@ -103,7 +101,6 @@ nav a:hover {
 
 #fountain img {
     background-position: left;
-    height: 150px;
 }
 
 main{
