@@ -1,15 +1,6 @@
 * {
     box-sizing: border-box;
  }
- 
- .parent {
-    display: grid;
-    grid-template-columns: .5fr repeat(3, 2fr) .5fr;
-    grid-template-rows: 1fr 6fr 1fr repeat(3, 4fr) 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
- }
-
 
 body  {
     background: #9cd4a4ee; 
@@ -17,6 +8,11 @@ body  {
     color:#666666;
     font-family: Verdana, Arial;
     margin: 0px;
+    display: grid;
+    grid-template-columns: .5fr repeat(3, 2fr) .5fr;
+    grid-template-rows: 1fr 6fr 1fr repeat(3, 4fr) 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
  }
 
 header { 
