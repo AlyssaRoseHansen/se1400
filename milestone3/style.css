@@ -11,7 +11,7 @@ body  {
  }
 
 header { 
-    color:#FFFFFF;
+    background-image: url(Photos/pexels-pixabay-158063.jpg);
     font-family: Georgia;
     text-decoration: none;
     grid-column: 2 / -2;
@@ -31,7 +31,7 @@ nav {
     background-color: #8ebe95cc;
     position: sticky;
     top: 0;
-    padding-left: 20px;
+    padding-left: 300px;
 }
 
 nav ul {
