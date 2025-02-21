@@ -22,11 +22,11 @@ header img {
 }
 
 header img:first-of-type {
-    z-index: 1;
+    z-index: 2;
 }
 
 header img:last-of-type {
-    z-index: 2;
+    z-index: 1;
     width: 100%;
 }
 
