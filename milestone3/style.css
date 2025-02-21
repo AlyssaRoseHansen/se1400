@@ -85,6 +85,10 @@ main{
     background-position: right;
 }
 
+#cake input {
+    background-color: #6a8e70;
+}
+
 #fountain {
     background-size: cover;
     background-repeat: no-repeat;
