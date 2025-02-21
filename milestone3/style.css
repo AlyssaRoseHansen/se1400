@@ -69,13 +69,40 @@ nav a:hover {
     background-color: #046d20ba;
 }
 
-#facultyhero {
+#cafe {
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     grid-column: 2 / -2;
-    grid-row: 3 / 4;
+    grid-row: 3 / 5;
+}
+
+#cafe img {
+    background-position: left;
+}
+
+#cake {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2 / -2;
+    grid-row: 3 / 5;
+}
+
+#cake img {
+    background-position: right;
+}
+
+#fountain {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 2 / -2;
+    grid-row: 3 / 5;
+}
+
+#fountain img {
+    background-position: left;
 }
 
 main{
