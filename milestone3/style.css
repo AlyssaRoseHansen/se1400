@@ -18,6 +18,11 @@ header {
     grid-row: 1 / 4;
 }
 
+h1 {
+    grid-column: 2 / -2;
+    grid-row: 1 / 2;
+}
+
 header a {
     text-decoration: none;
     color: #FFFFFF;
@@ -102,11 +107,6 @@ main{
     grid-column: 2 / -2;
     grid-row: 3 / 5;
     background-color: #f2e1c1;
-}
-
-dt{
-    color:#003058;
-    font-weight: Bold;
 }
 
 footer{
