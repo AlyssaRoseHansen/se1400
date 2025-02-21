@@ -72,15 +72,11 @@ main{
 }
 
 main #cafe p {
-    grid-column: 3 / 5;
-    grid-row: 4 / 5;
-    background-position: right;
+   text-align: right;
 }
 
 main #cafe img {
     background-position: left;
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
 }
 
 main #cake img {
