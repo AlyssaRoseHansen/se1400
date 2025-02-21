@@ -11,7 +11,7 @@ body  {
  }
 
 header {
-    background-color:#003058;
+    background-color:#40f4915a;
     color:#FFFFFF;
     font-family: Georgia;
     text-decoration: none;
@@ -39,12 +39,11 @@ nav {
     font-weight: bold;
     text-decoration: none;
     grid-column: 2 / -2;
-    grid-row: 2 / 3;
-    background-color: #424242;
+    grid-row: 1 / 2;
+    background-color: #40f4915a;
     position: sticky;
     top: 0;
 }
-
 
 h2{
     color:#424242;
