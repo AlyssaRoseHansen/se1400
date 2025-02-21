@@ -11,7 +11,7 @@ body  {
  }
 
 header {
-    background-color:#40f4915a;
+    background-color:#96c59c;
     color:#FFFFFF;
     font-family: Georgia;
     text-decoration: none;
@@ -40,7 +40,7 @@ nav {
     text-decoration: none;
     grid-column: 2 / -2;
     grid-row: 1 / 2;
-    background-color: #40f4915a;
+    background-color: #96c59c;
     position: sticky;
     top: 0;
 }
