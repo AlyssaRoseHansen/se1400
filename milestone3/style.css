@@ -17,6 +17,19 @@ header {
     background-color: transparent;
 }
 
+header img {
+    position: absolute;
+}
+
+header img:first-of-type {
+    z-index: 1;
+}
+
+header img:last-of-type {
+    z-index: 2;
+    width: 100%;
+}
+
 nav {
     font-weight: bold;
     text-decoration: none;
@@ -57,6 +70,7 @@ main{
     grid-column: 2 / -2;
     grid-row: 3 / 5;
     background-color: #f2e1c1;
+
 }
 
 #cafe {
