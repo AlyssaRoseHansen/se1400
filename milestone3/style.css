@@ -20,6 +20,7 @@ body  {
 
 header { 
     text-decoration: none;
+    background-image: url("pexels_pixabay_158063.jpg");
     grid-column: 1/ 4;
     grid-row: 1 / 4;
 }
@@ -75,8 +76,8 @@ main{
     grid-row: 3 / 5;
     background-color: #f2e1c1;
     display: grid;
-    grid-template-columns: 220px 220px 220px;
-    grid-template-rows: 170px 170px 170px;
+        grid-template-columns: 220px 220px 220px 220px 200px;
+        grid-template-rows: 170px 170px 170px 170px 170px;
 }
 
 main #cafe {
