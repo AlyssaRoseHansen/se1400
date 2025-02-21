@@ -10,13 +10,12 @@ body  {
     margin: 0px;
  }
 
-header {
-    background-color:#8ebe95cc; 
+header { 
     color:#FFFFFF;
     font-family: Georgia;
     text-decoration: none;
     grid-column: 2 / -2;
-    grid-row: 1 / 2;
+    grid-row: 1 / 4;
     background-image: url(Photos/pexels-pixabay-158063.jpg)
 }
 
