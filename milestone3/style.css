@@ -16,10 +16,6 @@ header {
     grid-row: 1 / 4;
 }
 
-h1 {
-    grid-column: 2 / -2;
-}
-
 header a {
     text-decoration: none;
     color: #FFFFFF;
