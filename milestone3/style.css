@@ -11,8 +11,6 @@ body  {
  }
 
 header { 
-    background-image: url(pexels-pixabay-158063.jpg);
-    font-family: Georgia;
     text-decoration: none;
     grid-column: 2 / -2;
     grid-row: 1 / 4;
