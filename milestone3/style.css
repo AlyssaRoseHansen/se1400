@@ -20,7 +20,6 @@ header {
 
 h1 {
     grid-column: 2 / -2;
-    grid-row: 1 / 2;
 }
 
 header a {
@@ -36,7 +35,7 @@ nav {
     background-color: #8ebe95cc;
     position: sticky;
     top: 0;
-    padding-left: 300px;
+    padding-left: 1500px;
 }
 
 nav ul {
