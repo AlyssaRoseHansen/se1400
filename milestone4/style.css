@@ -115,3 +115,7 @@ footer{
     grid-row: 7 / 8;
     background-color: #8ebe95cc;
 }
+
+footer img{
+    align-items: center;
+}
