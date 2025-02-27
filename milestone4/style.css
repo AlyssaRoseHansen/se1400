@@ -26,7 +26,7 @@ header {
 }
 
 header img:{
-    float: left;
+    float: center;
 }
 
 nav {
@@ -97,7 +97,7 @@ main #fountain p {
 }
 
 main .textbox {
-    
+
 }
 
 main #fountain img {
