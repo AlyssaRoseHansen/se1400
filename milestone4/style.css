@@ -158,14 +158,12 @@ main{
 }
 
 footer{
-    font-size:.70rem;
-    font-style: italic;
-    display: flex;
     padding: 1rem;
     grid-column: 1 / 4;
     grid-row: 5 / 6;
     background-color: #4f7154fd;
     width: 100%;
+    align-items: center;
 }
 
 footer img{
