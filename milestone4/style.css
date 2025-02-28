@@ -18,25 +18,22 @@ body  {
 
 header { 
     text-decoration: none;
-    background-image: url("Photos/WildOasis.PNG");
-    object-fit: fill;
-    background-position: top right;
+    background-image: url("Photos/pexels-pixabay-158063.jp");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 90px;
-    float: center;
-    left: 60px;
-    top: 120px;
+    background-size: cover;
     position: absolute;
     height: auto;
     grid-column: 1/ 4;
     grid-row: 1 / 4;
 }
 
-header img:{
-    float: center;
+header img {
     position: absolute;
+    height: 90px;
     height: auto;
-    width: 100%;
+    left: 60px;
+    top: 120px;
 }
 
 nav {
@@ -81,32 +78,32 @@ main{
     background-color: #f2e1c1;
 }
 
-main #cafe p {
+#cafe p {
    flex: 1;
    text-align: right;
     padding-right: 20px;
 }
 
-main #cafe img {
+#cafe img {
     margin-left: 20px;
     padding-left: 60px;
     padding-right: 30px;
     padding-top: 10px;
 }
 
-main #cake p {;
-    flex: 1
+#cake p {;
+    flex: 1;
     padding-right: 30px;
 }
 
-main #fountain p {
+#fountain p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 20px;
 }
 
-main #fountain img {
+#fountain img {
     background-position: left;
     padding-left: 40px;
 }
