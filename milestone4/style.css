@@ -3,7 +3,7 @@
  }
 
 body  {
-    background: #9cd4a4ee; 
+    background: #b4d6b9; 
     background-attachment: fixed;
     color:#666666;
     font-family: Verdana, Arial;
@@ -73,8 +73,9 @@ main{
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background-color: #fff9ee;
-    font-size: medium;
+    font-size: large;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 
 #cafe, #cake, #fountain {
@@ -88,10 +89,12 @@ main{
 #cafe p {
    display: flex;
    text-align: center;
-   background-color: #a0d7a8;
+   background-color: #b4d6b9;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #FFFFFF;
    background-origin:content-box;
+   padding-right: 20px;
+   padding-left: 40px;
 }
 
 #cafe img {
@@ -109,6 +112,7 @@ main{
 
 #cake p {;
     padding-right: 30px;
+    pading-left: 40px;
     display: flex;
     text-align: center;
     max-width: 80%;
@@ -116,6 +120,7 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFFFFF;
     background-origin:content-box;
+    
 }
 
 #cake img {
@@ -137,6 +142,8 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFFFFF;
     background-origin:content-box;
+    padding-left: 40px;
+    padding-right: 20px;
 }
 
 #fountain img {
@@ -157,6 +164,7 @@ footer{
     grid-row: 5 / 6;
     background-color: #4f7154fd;
     width: 100%;
+    align-items: center;
 }
 
 footer img{
