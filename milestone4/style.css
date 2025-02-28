@@ -18,6 +18,7 @@ body  {
 header { 
     text-decoration: none;
     background-image: url("Photos/pexels-pixabay-158063.jpg");
+    object-fit: fill;
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
