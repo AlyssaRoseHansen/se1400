@@ -174,4 +174,5 @@ footer img{
     margin: 0 20px;
     background-color: #bcf1c4cc;
     border-radius: 10px;
+    grid-column: 2 / 3;
 }
