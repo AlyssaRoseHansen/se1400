@@ -70,8 +70,6 @@ nav a:hover {
 }
 
 main{
-    padding-left: 2rem;
-    padding-right: 2rem;
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background-color: #fff9ee;
@@ -81,7 +79,6 @@ main{
 
 #cafe, #cake, #fountain {
     display: flex;
-    max-width: 80%;
 }
 
 #cafe {
@@ -91,7 +88,6 @@ main{
 #cafe p {
    display: flex;
    text-align: center;
-   max-width: 80%;
    background-color: #a0d7a8;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: #FFFFFF;
@@ -121,7 +117,6 @@ main{
     color: #FFFFFF;
     background-origin:content-box;
 }
-
 
 #cake img {
     background-position: right;
