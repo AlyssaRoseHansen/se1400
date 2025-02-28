@@ -29,10 +29,10 @@ header {
 
 header img {
     position: absolute;
-    height: 90px;
-    height: 90px;
+    height: 110px;
+    height: 110px;
     left: 60px;
-    top: 120px;
+    top: 60px;
 }
 
 nav {
@@ -75,7 +75,7 @@ main{
     align-items: center;
     grid-column: 2 / 3;
     grid-row: 3 / 5;
-    background-color: #f2e1c1;
+    background-color: #fff9ee;
 }
 
 #cafe, #cake, #fountain {
@@ -90,6 +90,10 @@ main{
    padding-right: 20px;
    max-width: 80%;
    background-color: #a0d7a8;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #FFFFFF;
+   background-origin:content-box;
+   font-weight: bold;
 }
 
 #cafe img {
@@ -97,6 +101,9 @@ main{
     padding-left: 60px;
     padding-right: 30px;
     padding-top: 10px;
+    border-radius: 8px;
+    margin-right: 15px;
+    border-color: #a0d7a8;
 }
 
 #cake p {;
@@ -105,6 +112,10 @@ main{
     text-align: center;
     max-width: 80%;
     background-color: #81a486;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    background-origin:content-box;
+    font-weight: bold;
 }
 
 #fountain p {
@@ -113,11 +124,18 @@ main{
     background-position: right;
     padding-right: 20px;
     background-color: #4f7154fd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    background-origin:content-box;
+    font-weight: bold;
 }
 
 #fountain img {
     background-position: left;
     padding-left: 40px;
+    border-radius: 8px;
+    margin-right: 15px;
+    border-color: #4f7154fd;
 }
 
 #cafe, #cake, #fountain
