@@ -163,11 +163,11 @@ footer{
     grid-row: 5 / 6;
     background-color: #4f7154fd;
     width: 100%;
+    display: flex;
     align-items: center;
 }
 
 footer img{
-    align-items: center;
     width: 30px;
     margin: 0 20px;
     background-color: #bcf1c4cc;
