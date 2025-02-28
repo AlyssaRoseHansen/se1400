@@ -18,20 +18,22 @@ body  {
 
 header { 
     text-decoration: none;
-    background-image: url("Photos/pexels-pixabay-158063.jpg");
+    background-image: url("Photos/WildOasis.PNG");
     object-fit: fill;
-    background-position: center;
+    background-position: top right;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 3.5fr;
+    background-size: 90px;
+    float: center;
+    left: 60px;
+    top: 120px;
+    position: absolute;
+    height: auto;
     grid-column: 1/ 4;
     grid-row: 1 / 4;
 }
 
 header img:{
     float: center;
-    left: 60px;
-    top: 120px;
     position: absolute;
     height: auto;
 }
