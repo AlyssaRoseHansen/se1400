@@ -76,6 +76,8 @@ main{
     font-size: large;
     font-weight: 400;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #cafe, #cake, #fountain {
@@ -129,6 +131,7 @@ main{
     border-radius: 8px;
     margin-right: 15px;
     border-color: #81a486;
+    margin-left: 15px;
 }
 
 #fountain {
