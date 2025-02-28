@@ -36,6 +36,7 @@ header img:{
     float: center;
     position: absolute;
     height: auto;
+    width: 100%;
 }
 
 nav {
@@ -125,4 +126,5 @@ footer img{
     width: 30px;
     margin: 0 20px;
     background-color: #bcf1c4cc;
+    border-radius: 10px;
 }
