@@ -28,6 +28,8 @@ header {
 
 header img:{
     float: center;
+    width: 70px;margin-left: 60px;
+
 }
 
 nav {
