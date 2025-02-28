@@ -75,14 +75,12 @@ main{
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background-color: #fff9ee;
-    display: flex;
     font-size: medium;
     font-weight: 400;
 }
 
 #cafe, #cake, #fountain {
     display: flex;
-    align-items: center;
     max-width: 80%;
 }
 
@@ -132,8 +130,6 @@ main{
     margin-right: 15px;
     border-color: #4f7154fd;
 }
-
-#cafe, #cake, #fountain
 
 footer{
     font-size:.70rem;
