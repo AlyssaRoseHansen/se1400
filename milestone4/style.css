@@ -11,7 +11,7 @@ body  {
     display: grid;
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: 1fr 2fr 1fr 6fr 1fr;
+    grid-template-rows: .5fr 2fr 1fr 6fr .5fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;    
  }
@@ -21,9 +21,7 @@ header {
     background-image: url("Photos/pexels-pixabay-158063.jpg");
     object-fit: fill;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    background-position: left;
+    height: fit-content;
     grid-column: 1/ 4;
     grid-row: 1 / 4;
 }
@@ -31,15 +29,16 @@ header {
 header img:{
     float: center;
     margin-left: 60px;
+    margin-top: 120px;
 
 }
 
 nav {
     font-weight: bold;
     text-decoration: none;
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     grid-row: 1 / 2;
-    background-color: #8ebe95cc;
+    background-color: #8ebe956b;
     position: sticky;
     top: 0;
 }
@@ -74,33 +73,37 @@ main{
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background-color: #f2e1c1;
+    margin-top: 40px;
 }
 
 main #cafe p {
    flex: 1;
    text-align: right;
+   margin-left: 1fr;
+   padding-right: 20px;
 }
 
 main #cafe img {
     margin-left: 20px;
-}
-
-main #cake img {
-    margin-right: 20px;
+    padding-left: 60px;
+    padding-right: 30px;
 }
 
 main #cake p {;
     flex: 1
+    padding-right: 30px;
 }
 
 main #fountain p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
+    padding-right: 20px;
 }
 
 main #fountain img {
     background-position: left;
+    padding-left: 40px;
 }
 
 footer{
@@ -110,7 +113,7 @@ footer{
     padding: 1rem;
     grid-column: 1 / 4;
     grid-row: 5 / 6;
-    background-color: #8ebe95cc;
+    background-color: #4a6d4ffd;
 }
 
 footer img{
