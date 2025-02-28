@@ -19,6 +19,7 @@ body  {
 header { 
     text-decoration: none;
     background-image: url("Photos/pexels-pixabay-158063.jpg");
+    size: 3.5fr;
     object-fit: fill;
     background-repeat: no-repeat;
     height: fit-content;
@@ -72,20 +73,19 @@ main{
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background-color: #f2e1c1;
-    margin-top: 40px;
 }
 
 main #cafe p {
    flex: 1;
    text-align: right;
-   margin-left: 1fr;
-   padding-right: 20px;
+    padding-right: 20px;
 }
 
 main #cafe img {
     margin-left: 20px;
     padding-left: 60px;
     padding-right: 30px;
+    padding-top: 10px;
 }
 
 main #cake p {;
