@@ -9,10 +9,11 @@ body  {
     font-family: Verdana, Arial;
     margin: 0px;
     display: grid;
-    grid-template-columns: .5fr repeat(3, 3fr) .5fr;
-    grid-template-rows: .5fr 4fr .5fr repeat(2, 3fr) .5fr;
+    display: grid;
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: 1fr 3fr 1fr 6fr 1fr;
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 0px;    
  }
 
 header { 
@@ -23,20 +24,21 @@ header {
     width: 100%;
     height: auto;
     background-position: left;
-    grid-column: 1/ 6;
+    grid-column: 1/ 4;
     grid-row: 1 / 4;
 }
 
 header img:{
     float: center;
-    width: 70px;margin-left: 60px;
+    width: 30px;
+    margin-left: 60px;
 
 }
 
 nav {
     font-weight: bold;
     text-decoration: none;
-    grid-column: 2 / 5;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: #8ebe95cc;
     position: sticky;
@@ -70,8 +72,8 @@ nav a:hover {
 main{
     padding-left: 2rem;
     padding-right: 2rem;
-    grid-column: 2 / 5;
-    grid-row: 3 / 7;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
     background-color: #f2e1c1;
 }
 
@@ -96,17 +98,9 @@ main #fountain p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    grid-column: 3 / 5;
-    grid-row: 6 / 7;
-}
-
-main .textbox {
-
 }
 
 main #fountain img {
-    grid-column: 2 / 3;
-    grid-row: 6 / 7;
     background-position: left;
 }
 
@@ -115,8 +109,8 @@ footer{
     font-style: italic;
     text-align: Center;
     padding: 1rem;
-    grid-column: 2 / 5;
-    grid-row: 7 / 8;
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
     background-color: #8ebe95cc;
 }
 
