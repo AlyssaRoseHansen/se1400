@@ -81,6 +81,7 @@ h3{
 #homehero {
     background-image: url(utahtechimages/homehero.jpg);
     height: 300px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
