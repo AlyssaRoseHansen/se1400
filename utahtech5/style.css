@@ -173,7 +173,8 @@ footer{
         position: static;
     }
     nav ul {
-        display: column nowrap;
+        display: flex;
+        flex-flow: column nowrap;
     }
     #homehero {
         grid-row: 2 / 3;
