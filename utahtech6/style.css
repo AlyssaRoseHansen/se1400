@@ -82,21 +82,12 @@ form {
     width: 100%;
 }
 
-input{
+input, textarea{
     font-size: 1rem;
-    padding: 10px;
+    padding-left: 10px;
     color: #666666;
     background-color: #fafafa;
     border: none;  
-}
-
-textarea{
-    font-size: 1rem;
-    padding: 10px;
-    padding-right: 10px;
-    color: #666666;
-    background-color: #fafafa;
-    border: none;
 }
 
 input:focus, textarea:focus{
