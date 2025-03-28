@@ -153,7 +153,7 @@ td {
 
 #alumnihero {
     background-image: url(utahtechimages/alumnihero.jpg);
-    height: 280px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -163,7 +163,7 @@ td {
 
 #homehero {
     background-image: url(utahtechimages/homehero.jpg);
-    height: 300px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -185,7 +185,7 @@ td {
 
 #studenthero {
     background-image: url(utahtechimages/studenthero.jpg);
-    height: 280px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -195,7 +195,7 @@ td {
 
 #facultyhero {
     background-image: url(utahtechimages/facultyhero.jpg);
-    height: 280px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
