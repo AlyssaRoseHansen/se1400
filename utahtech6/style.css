@@ -43,6 +43,7 @@ nav {
     background-color: #424242;
     position: static;
     top: 0;
+    text-align: center;
 }
 
 nav ul {
@@ -130,7 +131,7 @@ h2, h3 {
     background-repeat: no-repeat;
     background-position: right;
     grid-row: 2 / 4;
-    grid-column: 3 / 9;
+    grid-column: 5 / 9;
 }
 
 #homehero {
