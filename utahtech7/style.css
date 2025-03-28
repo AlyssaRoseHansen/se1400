@@ -132,6 +132,7 @@ h2, h3 {
     border: 1px solid #424242;
     width: 100%;
     border-collapse: collapse;
+    grid-column: 2 / -2;
 }
 
 tr:nth-of-type(even) {
