@@ -134,17 +134,21 @@ h2, h3 {
     border-collapse: collapse;
 }
 
+tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
 td, th {
     padding: 5px;
-    border: 1px #424242;
+    border: 1px solid #424242;
 }
 
 td {
     text-align: center;
 }
 
-text class {
-    
+#text {
+   text-align: left;
 }
 
 #alumnihero {
