@@ -126,7 +126,7 @@ h2, h3 {
     text-align: left;
 }
 
-#table {
+table {
     margin: 0 auto;
     border: 1px solid #424242;
     width: 100%;
