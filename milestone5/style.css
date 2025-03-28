@@ -182,10 +182,29 @@ footer img{
 }
 
 @media screen and (max-width: 992px) {
-    grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: .5fr 2fr 1fr 6fr .5fr;
+    .center-column {
+        width: 768px;
+    }
+    #cafe img {
+        max-width: 100%;
+        height: auto;
+    }
+    #cake img {
+        max-width: 100%;
+        height: auto;
+    }
+    #fountain img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    
+    .center-column {
+        width: 100%;
+    }
+    grid-template-columns: 1fr;
+    .left-column, .right-column {
+        display: none;
+    }
 }
