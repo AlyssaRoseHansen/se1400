@@ -8,7 +8,9 @@ body  {
     color:#666666;
     font-family: Verdana, Arial;
     margin: 0px;
-    display: grid;
+}
+
+#wrapper {
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
     grid-template-rows: .5fr 2fr 1fr 6fr .5fr;
@@ -177,4 +179,13 @@ footer img{
     margin: 0 20px;
     background-color: #bcf1c4cc;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: .5fr 2fr 1fr 6fr .5fr;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
