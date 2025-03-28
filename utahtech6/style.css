@@ -80,6 +80,7 @@ form {
     grid-template-columns: 200px 1fr;
     gap: .75rem;
     width: 100%;
+    margin: 20px;
 }
 
 input, textarea{
@@ -103,10 +104,23 @@ label {
 #mySubmit{
     width: 10rem;
     grid-column: 2 / 3;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#mysubmit : :hover {
+    background-color: #45a049
 }
 
 h3{
     color: #003058;
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 #alumnihero {
