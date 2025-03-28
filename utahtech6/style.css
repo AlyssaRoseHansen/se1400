@@ -44,6 +44,7 @@ nav {
     position: static;
     top: 0;
     text-align: center;
+    display: flex;
 }
 
 nav ul {
@@ -113,7 +114,7 @@ label {
 }
 
 #mysubmit:hover {
-    background-color: #45a049
+    background-color: #BA1C21
 }
 
 h3{
@@ -121,7 +122,7 @@ h3{
 }
 
 h2, h3 {
-    text-align: right;
+    text-align: left;
 }
 
 #alumnihero {
