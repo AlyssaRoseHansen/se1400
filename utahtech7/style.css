@@ -126,7 +126,7 @@ h2, h3 {
     text-align: left;
 }
 
-table tr, td, th {
+table {
     margin: 0 auto;
     border: 1px solid #424242;
     width: 100%;
@@ -140,6 +140,8 @@ tr:nth-of-type(even) {
 
 td, th {
     padding: 5px;
+    border: 1px solid #424242;
+    border-collapse: collapse;
 }
 
 td {
@@ -152,7 +154,7 @@ td {
 
 #alumnihero {
     background-image: url(utahtechimages/alumnihero.jpg);
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -162,7 +164,7 @@ td {
 
 #homehero {
     background-image: url(utahtechimages/homehero.jpg);
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -184,7 +186,7 @@ td {
 
 #studenthero {
     background-image: url(utahtechimages/studenthero.jpg);
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -194,7 +196,7 @@ td {
 
 #facultyhero {
     background-image: url(utahtechimages/facultyhero.jpg);
-    height: 250px;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
