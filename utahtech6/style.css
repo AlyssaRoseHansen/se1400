@@ -39,7 +39,7 @@ nav {
     font-weight: bold;
     text-decoration: none;
     grid-column: 1 / 5;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
     background-color: #424242;
     position: static;
     top: 0;
@@ -134,7 +134,7 @@ h2, h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
     grid-column: 5 / 9;
 }
 
