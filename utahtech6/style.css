@@ -128,9 +128,9 @@ h2, h3 {
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     grid-row: 2 / 4;
-    grid-column: 1 / 9;
+    grid-column: 3 / 9;
 }
 
 #homehero {
