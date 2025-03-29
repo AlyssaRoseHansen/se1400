@@ -200,12 +200,11 @@ footer img{
     .center-column {
         width: 100%;
     }
-    grid-template-columns: 1fr;
     .left-column, .right-column {
         display: none;
     }
     body {
-        display: grid;
+        display: flex; 
         grid-template-columns: 3fr;
         grid-template-rows: .5fr 1fr 1fr 6fr .5fr;
         grid-column-gap: 0px;
