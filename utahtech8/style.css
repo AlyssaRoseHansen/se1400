@@ -66,6 +66,7 @@ nav a {
     padding: 1rem 0rem;
     display: block;
     text-align: center;
+    transition: background-color 0.5s ease-out;
 }
 
 nav a:hover {
@@ -150,6 +151,11 @@ td {
 
 .text {
    text-align: left;
+}
+
+video {
+    float: right;
+    margin-left: 2em;
 }
 
 #alumnihero {
