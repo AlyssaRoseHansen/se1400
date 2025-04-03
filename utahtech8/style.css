@@ -178,8 +178,9 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     grid-row: 3 / 4;
+    padding: none;
 }
 
 #bluebar {
@@ -200,8 +201,9 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     grid-row: 3 / 4;
+    padding: none;
 }
 
 #facultyhero {
@@ -210,8 +212,9 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     grid-row: 3 / 4;
+    padding: none;
 }
 
 main{
