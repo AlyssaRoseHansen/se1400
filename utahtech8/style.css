@@ -38,17 +38,17 @@ header a {
 nav {
     font-weight: bold;
     text-decoration: none;
-    grid-column: 1 / 5;
+    grid-column: 2 / -2;
     grid-row: 2 / 3;
     background-color: #424242;
-    position: static;
+    position: sticky;
     top: 0;
-    text-align: center;
-    display: flex;
 }
 
 alumni.html nav {
     flex-direction: column;
+    text-align: center;
+    display: flex;
 }
 
 nav ul {
