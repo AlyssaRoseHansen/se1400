@@ -45,13 +45,6 @@ nav {
     top: 0;
 }
 
-alumni.html nav {
-    flex-direction: column;
-    text-align: center;
-    display: flex;
-    grid-column: 2 / 3;
-}
-
 nav ul {
     list-style-type: none;
     padding: 0px;
@@ -180,7 +173,6 @@ video {
     background-position: center;
     grid-column: 2 / -2;
     grid-row: 3 / 4;
-    margin: 0;
 }
 
 #bluebar {
@@ -203,8 +195,6 @@ video {
     background-position: center;
     grid-column: 2 / -2;
     grid-row: 3 / 4;
-    padding: none;
-    margin: 0;
 }
 
 #facultyhero {
@@ -215,8 +205,6 @@ video {
     background-position: center;
     grid-column: 2 / -2;
     grid-row: 3 / 4;
-    padding: none;
-    margin: 0;
 }
 
 main{
