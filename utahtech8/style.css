@@ -173,12 +173,12 @@ video {
 
 #homehero {
     background-image: url(utahtechimages/homehero.jpg);
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-row: 2 / 3;
-    grid-column: 2 / 9;
+    grid-column: 2 / -2;
+    grid-row: 3 / 4;
 }
 
 #bluebar {
@@ -195,22 +195,22 @@ video {
 
 #studenthero {
     background-image: url(utahtechimages/studenthero.jpg);
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
-    grid-row: 2 / 3;
-    grid-column: 5 / 9;
+    background-position: center;
+    grid-column: 2 / -2;
+    grid-row: 3 / 4;
 }
 
 #facultyhero {
     background-image: url(utahtechimages/facultyhero.jpg);
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
-    grid-row: 2 / 3;
-    grid-column: 5 / 9;
+    background-position: center;
+    grid-column: 2 / -2;
+    grid-row: 3 / 4;
 }
 
 main{
