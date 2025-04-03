@@ -45,6 +45,9 @@ nav {
     top: 0;
     text-align: center;
     display: flex;
+}
+
+alumni.html nav {
     flex-direction: column;
 }
 
