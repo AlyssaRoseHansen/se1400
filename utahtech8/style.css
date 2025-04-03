@@ -49,6 +49,7 @@ alumni.html nav {
     flex-direction: column;
     text-align: center;
     display: flex;
+    grid-column: 2 / 3;
 }
 
 nav ul {
