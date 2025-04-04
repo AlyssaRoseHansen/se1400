@@ -264,7 +264,9 @@ footer{
         flex-flow: column nowrap;
     }
     video {
-        display: block;
+        float: none;
+        margin: 0;
+        width: 100%;
     }
     #homehero {
         grid-row: 2 / 3;
