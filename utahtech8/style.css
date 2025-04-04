@@ -157,12 +157,12 @@ video {
 
 #alumnihero {
     background-image: url(utahtechimages/alumnihero.jpg);
-    height: 200px;
+    height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
-    grid-row: 2 / 3;
-    grid-column: 3 / 9;
+    background-position: center;
+    grid-column: 1 / 9;
+    grid-row: 3 / 4;
 }
 
 #homehero {
@@ -171,7 +171,7 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-column: 2 / -2;
+    grid-column: 1 / 9;
     grid-row: 3 / 4;
 }
 
@@ -193,7 +193,7 @@ video {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    grid-column: 2 / -2;
+    grid-column: 1 / 9;
     grid-row: 3 / 4;
 }
 
