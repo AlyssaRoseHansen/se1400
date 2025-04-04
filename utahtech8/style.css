@@ -267,6 +267,7 @@ footer{
         float: none;
         margin: 0;
         width: 100%;
+        height: auto;
     }
     #homehero {
         grid-row: 2 / 3;
