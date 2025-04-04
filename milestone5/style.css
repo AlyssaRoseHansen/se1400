@@ -209,5 +209,48 @@ footer img{
         grid-template-rows: .5fr 1fr 1fr 6fr .5fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;   
-    } 
+    }
+    #cafe img {
+        max-width: 25%;
+        height: auto;
+    }
+    #cake img {
+        max-width: 25%;
+        height: auto;
+    }
+    #fountain img {
+        max-width: 25%;
+        height: auto;
+    }
+    #cafe p {
+        display: flex;
+        text-align: center;
+        background-color: #b4d6b9;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+        background-origin:content-box;
+        padding-right: 0px;
+        padding-left: 0px;
+     }
+    #cake p {;
+        padding-right: 0px;
+        padding-left: 0px;
+        display: flex;
+        text-align: center;
+        max-width: 80%;
+        background-color: #81a486;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+        background-origin:content-box;
+    }
+    #fountain p {
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: #4f7154fd;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+        background-origin:content-box;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
