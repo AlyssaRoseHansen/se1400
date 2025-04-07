@@ -213,18 +213,21 @@ footer img{
     }
     body {
         display: flex; 
-        grid-template-columns: 3fr;
+        grid-auto-columns: auto;
         grid-template-rows: .5fr 1fr 1fr 6fr .5fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;   
+        padding: none;
     }
     main {
         font-size: medium;
-        padding: none; 
     }
     #cafe img {
         max-width: 25%;
         height: auto;
+        position: center;
+    }
+    #cafe p {
         position: center;
     }
     #cake img {
@@ -232,9 +235,15 @@ footer img{
         height: auto;
         position: center;
     }
+    #cafe p {
+        position: center;
+    }
     #fountain img {
         max-width: 25%;
         height: auto;
+        position: center;
+    }
+    #fountain p{
         position: center;
     }
 }
