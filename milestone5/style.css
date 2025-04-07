@@ -104,7 +104,7 @@ main{
     border-radius: 8px;
     margin-right: 15px;
     border-color: #a0d7a8;
-    box-shadow: -8px -3px 0px #a0d7a8;
+    box-shadow: -15px -10px 0px #a0d7a8;
 }
 
 #cake {
@@ -125,7 +125,6 @@ main{
 
 #cake img {
     background-position: right;
-    padding-right: 40px;
     border-radius: 8px;
     margin-right: 15px;
     border-color: #81a486;
@@ -150,11 +149,10 @@ main{
 
 #fountain img {
     background-position: left;
-    padding-left: 40px;
     border-radius: 8px;
     margin-right: 15px;
     border-color: #4f7154fd;
-    box-shadow: -10px -5px 0px #4f7154fd;
+    box-shadow: -15px -10px 0px #4f7154fd;
 }
 
 footer{
