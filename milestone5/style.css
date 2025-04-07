@@ -187,6 +187,9 @@ footer img{
     .center-column {
         width: 768px;
     }
+    #wrapper {
+        display: grid;
+    }
     #cafe img {
         max-width: 50%;
         height: auto;
