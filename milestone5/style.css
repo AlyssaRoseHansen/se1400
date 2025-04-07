@@ -182,7 +182,7 @@ footer img{
 
 @media screen and (max-width: 992px) {
     .center-column {
-        width: 768px;
+        width: auto;
     }
     body{
         display: grid;
@@ -218,6 +218,10 @@ footer img{
         grid-column-gap: 0px;
         grid-row-gap: 0px;   
         padding: none;
+    }
+    nav {
+        font: medium;
+        position: static;
     }
     main {
         font-size: medium;
