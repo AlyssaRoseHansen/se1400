@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 main{
-    grid-column: 2 / 3;
+    grid-column: 2 / -2;
     grid-row: 3 / 5;
     background-color: #fff9ee;
     font-size: x-large;
@@ -178,7 +178,7 @@ footer img{
     #wrapper{
         display: grid;
         grid-auto-rows: minmax(0px, auto);
-        grid-auto-columns: minmax(0px, 1fr) repeat(3 minmax(0px, 1fr)) minmax(0px, 1fr);
+        grid-auto-columns: minmax(0px, 1fr) repeat(6 minmax(0px, 150px)) minmax(0px, 1fr);
     }
 }
 @media screen and (max-width: 992px) {
@@ -191,6 +191,7 @@ footer img{
     #cafe img {
         max-width: 50%;
         height: auto;
+
     }
     #cake img {
         max-width: 50%;
