@@ -217,7 +217,7 @@ footer img{
         grid-template-rows: .5fr 1fr 1fr 6fr .5fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;   
-        padding: none;
+        padding: 0;
     }
     nav {
         font: medium;
