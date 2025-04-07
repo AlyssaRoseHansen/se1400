@@ -70,7 +70,7 @@ nav a:hover {
 
 main{
     grid-column: 2 / 3;
-    grid-row: 3 / 5;
+    grid-row: 2 / 5;
     background-color: #fff9ee;
     font-size: x-large;
     font-weight: 400;
