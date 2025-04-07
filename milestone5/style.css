@@ -72,7 +72,7 @@ main{
     grid-column: 2 / 3;
     grid-row: 3 / 5;
     background-color: #fff9ee;
-    font-size: large;
+    font-size: x-large;
     font-weight: 400;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -93,7 +93,6 @@ main{
    text-align: center;
    background-color: #b4d6b9;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font: 12px;
    color: #FFFFFF;
    background-origin:content-box;
    padding-right: 20px;
