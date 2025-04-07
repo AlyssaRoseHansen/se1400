@@ -187,7 +187,7 @@ footer img{
     body{
         display: grid;
     }
-    #cafe img {
+    #cafe-img {
         max-width: 50%;
         height: auto;
     }
@@ -222,7 +222,7 @@ footer img{
     main {
         font-size: medium;
     }
-    #cafe img {
+    #cafe-img {
         max-width: 25%;
         height: auto;
         position: center;
