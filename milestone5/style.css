@@ -223,6 +223,10 @@ footer img{
     nav {
         font: medium;
         position: static;
+        color: #FFFFFF;
+        display: block;
+        text-align: center;
+    }
     }
     main {
         font-size: medium;
