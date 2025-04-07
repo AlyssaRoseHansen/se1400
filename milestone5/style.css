@@ -180,10 +180,12 @@ footer img{
     }
 }
 
-
 @media screen and (max-width: 992px) {
     .center-column {
         width: 768px;
+    }
+    body{
+        display: grid;
     }
     #cafe img {
         max-width: 50%;
