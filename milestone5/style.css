@@ -11,10 +11,8 @@ body  {
 }
 #wrapper {    
     display: grid;
-    grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: .5fr 2fr 1fr 6fr .5fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;    
+    grid-auto-rows: minmax(0px, auto);
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);  
  }
 
 header { 
