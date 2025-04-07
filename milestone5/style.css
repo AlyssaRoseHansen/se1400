@@ -212,7 +212,7 @@ footer img{
         display: none;
     }
     body {
-        display: flex; 
+        display: grid; 
         grid-auto-columns: auto;
         grid-template-rows: .5fr 1fr 1fr 6fr .5fr;
         grid-column-gap: 0px;
@@ -229,25 +229,25 @@ footer img{
     #cafe-img {
         max-width: 25%;
         height: auto;
-        position: center;
+        align-items: center;
     }
     #cafe p {
-        position: center;
+        align-items: center;
     }
     #cake img {
         max-width: 25%;
         height: auto;
-        position: center;
+        align-items: center;
     }
     #cafe p {
-        position: center;
+        align-items: center;
     }
     #fountain img {
         max-width: 25%;
         height: auto;
-        position: center;
+        align-items: center;
     }
     #fountain p{
-        position: center;
+        align-items: center;
     }
 }
