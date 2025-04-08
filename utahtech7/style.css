@@ -145,10 +145,6 @@ td {
     text-align: center;
 }
 
-.text {
-   text-align: left;
-}
-
 td.text {
     text-align: left !important;
 }
