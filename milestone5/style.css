@@ -187,6 +187,14 @@ footer img{
     body{
         display: grid;
     }
+    nav {
+        font: medium;
+        position: static;
+        background-color: #8ebe956b;
+        display: block;
+        text-align: center;
+        grid-row: 1 / 2;
+    }
     #cafe-img {
         max-width: 50%;
         height: auto;
@@ -225,31 +233,26 @@ footer img{
         background-color: #8ebe956b;
         display: block;
         text-align: center;
+        grid-row: 1 / 2;
     }
     }
     main {
         font-size: medium;
     }
     #cafe-img {
-        max-width: 25%;
-        height: auto;
-        align-items: center;
+        display: none;
     }
     #cafe p {
         align-items: center;
     }
     #cake img {
-        max-width: 25%;
-        height: auto;
-        align-items: center;
+        display: none;
     }
     #cafe p {
         align-items: center;
     }
     #fountain img {
-        max-width: 25%;
-        height: auto;
-        align-items: center;
+        display: none;
     }
     #fountain p{
         align-items: center;
