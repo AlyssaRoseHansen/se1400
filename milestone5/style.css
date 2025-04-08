@@ -189,11 +189,13 @@ footer img{
     }
     nav {
         font: medium;
+        font-weight: bold;
         position: static;
         background-color: #8ebe95b2;
         display: block;
         text-align: center;
         grid-row: 1 / 2;
+        z-index: 10;
     }
     header {
         grid-row: 2 / 4;
@@ -232,11 +234,13 @@ footer img{
     }
     nav {
         font: medium;
+        font-weight: bold;
         position: static;
         background-color: ##8ebe95b2;
         display: block;
         text-align: center;
         grid-row: 1 / 2;
+        z-index: 10;
     }
     header {
         grid-row: 2 / 4;
