@@ -21,15 +21,16 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
     grid-column: 1/ 4;
     grid-row: 1 / 4;
 }
 
 header img {
     position: absolute;
-    grid-template-columns: 1 / 4;
-    grid-template-rows: 1 / 4;
+    height: 190px;
+    height: 190px;
+    left: 20px;
+    top: 30px;
 }
 
 nav {
