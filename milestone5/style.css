@@ -38,7 +38,7 @@ nav {
     text-decoration: none;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
-    background-color: #8ebe956b;
+    background-color: #8ebe95b2;
     position: sticky;
     top: 0;
 }
@@ -190,7 +190,7 @@ footer img{
     nav {
         font: medium;
         position: static;
-        background-color: #8ebe956b;
+        background-color: #8ebe95b2;
         display: block;
         text-align: center;
         grid-row: 1 / 2;
@@ -230,7 +230,7 @@ footer img{
     nav {
         font: medium;
         position: static;
-        background-color: #8ebe956b;
+        background-color: ##8ebe95b2;
         display: block;
         text-align: center;
         grid-row: 1 / 2;
