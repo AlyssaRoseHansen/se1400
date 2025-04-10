@@ -217,7 +217,7 @@ video {
     grid-row: 3 / 4;
 }
 
-#shoppingcart {
+#shoppingcart img {
     width: 100%;
     height: auto;
     display: grid;
