@@ -220,8 +220,11 @@ video {
 #shoppingcart img {
     width: 100%;
     height: auto;
+}
+
+#shophero main {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: (3, 1fr);
 }
 
 main{
