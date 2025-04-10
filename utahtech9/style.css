@@ -217,6 +217,13 @@ video {
     grid-row: 3 / 4;
 }
 
+#shoppingcart img {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 main{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -310,6 +317,10 @@ footer{
         grid-column: 5 / 8;
         height: auto;
     }
+    #shoppingcart img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -335,5 +346,9 @@ footer{
     }
     #shophero {
         display: none;
+    }
+    #shoppingcart img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
