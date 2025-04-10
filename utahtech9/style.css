@@ -217,11 +217,11 @@ video {
     grid-row: 3 / 4;
 }
 
-#shoppingcart img {
+#shoppingcart {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3 minmax(0px, 200px));
 }
 
 main{
@@ -317,9 +317,9 @@ footer{
         grid-column: 5 / 8;
         height: auto;
     }
-    #shoppingcart img {
+    #shoppingcart {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2 minmax(0px,150px));
     }
 }
 
