@@ -221,7 +221,7 @@ video {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3 minmax(0px, 200px));
+    grid-template-columns: repeat(3, minmax(0px, 200px));
 }
 
 main{
@@ -319,7 +319,7 @@ footer{
     }
     #shoppingcart {
         display: grid;
-        grid-template-columns: repeat(2 minmax(0px,150px));
+        grid-template-columns: repeat(2, minmax(0px,150px));
     }
 }
 
