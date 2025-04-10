@@ -350,8 +350,8 @@ footer{
     #shophero {
         display: none;
     }
-    #shoppingcart img {
+    #shoppingcart {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1, 1fr;
     }
 }
