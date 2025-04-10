@@ -221,7 +221,7 @@ video {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0px, 200px));
+    grid-template-columns: repeat(3, minmax(0px, 100px));
 }
 
 main{
