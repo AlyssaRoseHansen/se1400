@@ -224,6 +224,14 @@ main{
     height: auto;
 }
 
+#tree {
+    background-image: url(Photos/20220506_115312.jpg);
+    position: right;
+    width: 300px;
+    box-shadow: -15px -10px 0px #4f7154fd;
+    padding: 20px;
+}
+
 footer{
     padding: 1rem;
     grid-column: 1 / 4;
