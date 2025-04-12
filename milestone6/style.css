@@ -63,7 +63,7 @@ header img {
 }
 
 #galleryhero {
-    background-image: url(Photos/Screenshot\ 2025-02-05\ 193630.png);
+    background-image: url(Photos/20181227_111652.jpg);
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,6 +90,14 @@ header img {
     background-position: center;
     grid-column: 1 / 9;
     grid-row: 1 / 4;    
+}
+
+#aboutsm {
+    height: auto;
+    width: 200px;
+    position: right;
+    grid-row: 4 / 5;
+    grid-column: 6 / 8;
 }
 
 nav {
