@@ -21,7 +21,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 1/ 4;
-    grid-row: 1 / 4;
+    grid-row: 1 / 2;
 }
 
 header img {
@@ -96,7 +96,7 @@ nav {
     font-weight: bold;
     text-decoration: none;
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     background-color: #8ebe95ea;
     position: sticky;
     top: 0;
