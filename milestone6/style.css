@@ -10,14 +10,14 @@ body  {
     margin: 0px;
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: .5fr 1fr .5fr 6fr .5fr;
+    grid-template-rows: minmax(0px, auto);
     grid-column-gap: 0px;
     grid-row-gap: 0px;    
  }
 
 header { 
     text-decoration: none;
-    background-position: center;
+    background-color: #658c6bea;
     background-repeat: no-repeat;
     background-size: cover;
     grid-column: 1/ 4;
@@ -208,7 +208,7 @@ h4{
 }
 
 #winter {
-    background-image: ;
+    background-image: url() ;
     background-position: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #3a4f3d
