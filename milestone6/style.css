@@ -17,11 +17,16 @@ body  {
 
 header { 
     text-decoration: none;
-    background-color: #658c6bea;
+    background-color: #FFFFFF;
+    color:#658c6bea;
     background-repeat: no-repeat;
     background-size: cover;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-column: 1/ 4;
     grid-row: 1 / 2;
+    position: RIGHT;
 }
 
 header img {
