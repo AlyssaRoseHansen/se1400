@@ -22,16 +22,22 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: bold;
-    font-size: 30;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    grid-column: 1/ 4;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-column: 1 / 4;
     grid-row: 1 / 2;
     position: RIGHT;
 }
 
 header img {
+    float: left;
     position: absolute;
+    background-origin: content-box;
     height: 190px;
+    line-height: 140%;
+    padding-left:1em;
+    padding: 0.5rem;
+    margin:0;
 }
 
 #indeximg {
