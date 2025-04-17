@@ -18,15 +18,22 @@ body  {
 header { 
     text-decoration: none;
     background-color: #FFFFFF;
-    color:#658c6bea;
+    background-image: url(Photos/Screenshot\ 2025-02-05\ 193630.png);
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    float: RIGHT;
+}
+
+header a {
+    text-decoration: none;
+    color: #658c6bea;
     font-weight: bold;
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-    float: RIGHT;
+    text-align: right;
 }
 
 header img {
