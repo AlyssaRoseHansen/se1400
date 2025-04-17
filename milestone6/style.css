@@ -24,7 +24,7 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 h1{
-    background-image: url(Photos/Screenshot\ 2025-02-05\ 193630.png);
+    background-image: url(Photos/WildOasis.PNG);
     background-position: left;
     background-repeat: no-repeat;
     background-origin: content-box;
@@ -116,7 +116,7 @@ header img {
 nav {
     font-weight: bold;
     text-decoration: none;
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     grid-row: 2 / 3;
     background-color: #8ebe95ea;
     position: sticky;
@@ -226,28 +226,28 @@ h2 {
 
 #Spring {
     background-image: url(Photos/pexels-roman-odintsov-8180735.jpg);
-    background-position: right;
+    float: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #a0d7a8
 }
 
 #Summer {
     background-image: url(Photos/pexels-simeon-mirkov-2815709-18254263.jpg);
-    background-position: right;
+    float: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #a0d7a8
 }
 
 #Fall {
     background-image: url(Photos/pexels-pixabay-158028.jpg);
-    background-position: right;
+    float: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #547659
 }
 
 #Winter {
     background-image: url(Photos/20181221_200938.jpg) ;
-    background-position: right;
+    float: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #3a4f3d
 }
