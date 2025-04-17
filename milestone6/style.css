@@ -31,6 +31,7 @@ h1{
     line-height: 140%;
     padding-right: 1em;
     padding: 0.5rem;
+    width: 20px;
     margin: 0;
     text-align: right;
     height: 50px;
@@ -329,7 +330,7 @@ h2 {
 
 #aboutsm {
     height: auto;
-    width: 200px;
+    width: 300px;
     float: right;
     grid-row: 4 / 5;
     grid-column: 6 / 8;
