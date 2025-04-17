@@ -167,38 +167,44 @@ h2 {
 }
 
 #Spring h3 {
-    color: #547659;
+    color: #81a486 ;
     font-style: italic;
     font: large;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Spring h4 {
-    color: #547659;
+    color: #81a486;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Summer h3 {
-    color: #81a486;
+    color: #547659;
     font: large;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Summer h4 {
-    color: #81a486;
+    color: #547659;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Fall h3{
     color: #4f7154fd;
     font: large;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Fall h4 {
     color: #4f7154fd;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Winter h3{
     color: #3e5641;
@@ -206,39 +212,41 @@ h2 {
     font: large;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #Winter h4{
     color: #3e5641;
     font-weight: bold;
     float: left;
+    font-style: italic;
 }
 #seasonal {
     float: left;
 }
 
-#spring {
+#Spring {
     background-image: url(Photos/pexels-roman-odintsov-8180735.jpg);
     background-position: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #a0d7a8
 }
 
-#summer {
+#Summer {
     background-image: url(Photos/pexels-simeon-mirkov-2815709-18254263.jpg);
     background-position: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #a0d7a8
 }
 
-#fall {
+#Fall {
     background-image: url(Photos/pexels-pixabay-158028.jpg);
     background-position: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #547659
 }
 
-#winter {
-    background-image: url() ;
+#Winter {
+    background-image: url(Photos/20181221_200938.jpg) ;
     background-position: right;
     width: 150PX;
     box-shadow: -15px -10px 0px #3a4f3d
