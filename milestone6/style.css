@@ -21,20 +21,18 @@ header {
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    float: RIGHT;
-    font-weight: bold;
-    font-size: xx-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1{
     background-image: url(Photos/Screenshot\ 2025-02-05\ 193630.png);
     background-position: left;
     background-repeat: no-repeat;
+    background-origin: content-box;
     line-height: 140%;
     padding-right: 1em;
     padding: 0.5rem;
     margin: 0;
+    text-align: right;
 }
 
 header a {
