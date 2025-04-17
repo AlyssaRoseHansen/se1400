@@ -31,16 +31,14 @@ h1{
     line-height: 140%;
     padding-right: 1em;
     padding: 0.5rem;
-    width: 20px;
+    width: 30px;
     margin: 0;
-    text-align: right;
-    height: 50px;
 }
 
 header a {
     text-decoration: none;
     color: #658c6bea;
-
+    text-align: right;
 }
 
 header img {
@@ -52,6 +50,11 @@ header img {
     padding-left:1em;
     padding: 0.5rem;
     margin:0;
+}
+
+main img {
+    padding-left: 2rem;
+    float: right;
 }
 
 #indeximg {
