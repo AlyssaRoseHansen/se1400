@@ -10,7 +10,7 @@ body  {
     margin: 0px;
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: repeat(2, minmax(0px,.5fr)) minmax(0px, 1fr) minmax(0px, auto) minmax(0px, .5fr);
+    grid-template-rows: repeat(2, minmax(0px,.5fr)) 1fr minmax(0px, auto) minmax(0px, .5fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;    
  }
