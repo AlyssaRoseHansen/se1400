@@ -337,7 +337,7 @@ h2 {
     float: right;
     grid-row: 4 / 5;
     grid-column: 6 / 8;
-    box-shadow: -15px -10px 0px #a0d7a8;
+    box-shadow: -10px -8px 0px #a0d7a8;
 }
 
 #gallery {
