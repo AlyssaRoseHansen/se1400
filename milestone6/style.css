@@ -157,11 +157,8 @@ main{
     background-color: #fff9ee;
     font-size: x-large;
     font-weight: 400;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 h2 {
     font: xx-large;
