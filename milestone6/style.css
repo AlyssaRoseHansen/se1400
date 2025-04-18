@@ -381,7 +381,9 @@ h2 {
 #contact h3{
     font-size: medium;
 }
-
+#contact {
+    text-align: left;
+}
 #contact p{
     font-size: small;
     font-style: italic;
