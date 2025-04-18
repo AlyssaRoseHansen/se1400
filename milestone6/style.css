@@ -350,10 +350,9 @@ h2 {
 
 #aboutsm {
     height: auto;
-    width: 400px;
+    width: 200px;
     float: right;
     grid-row: 4 / 5;
-    grid-column: 6 / 8;
     border-radius: 8px;
     box-shadow: -15px -10px 0px #a0d7a8;
 }
