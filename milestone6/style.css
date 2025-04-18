@@ -372,9 +372,9 @@ h2 {
 
 #tree {
     float: right;
-    width: 100%;
+    width: 50%;
     height: auto;
-    box-shadow: -15px -10px 0px #4f7154fd;
+    box-shadow: -10px -5px 0px #4f7154fd;
     border-radius: 8px;
     padding: 20px;
 }
