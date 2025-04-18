@@ -383,6 +383,15 @@ h2 {
 }
 #contact {
     text-align: left;
+    display: grid;
+    grid-template-columns: ,5fr .5fr;
+}
+
+#contact form{
+    columns: 1 / 2;
+}
+#contact img {
+    columns: 2 / 3;
 }
 #contact p{
     font-size: small;
@@ -390,7 +399,7 @@ h2 {
 }
 #shoppingcart{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: .5fr;
 }
 
 #ticketform{
