@@ -10,7 +10,7 @@ body  {
  }
 #wrapper {
     display: grid;
-    grid-template-columns: minmax(opx, auto);
+    grid-template-columns: minmax(0px, auto);
     grid-template-rows: minmax(0px,50) repeat(minmax(0px, 175px)) minmax(0px, 1fr);
 }
 
