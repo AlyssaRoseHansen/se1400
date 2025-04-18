@@ -117,7 +117,7 @@ main img {
 nav {
     font-weight: bold;
     text-decoration: none;
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
     grid-row: 2 / 3;
     background-color: #8ebe95ea;
     position: sticky;
@@ -130,6 +130,7 @@ nav ul {
     margin: 0px;
     display: flex;
     flex-flow: row nowrap;
+    grid-column: 2 / -2;
 }
 
 nav ul li {
