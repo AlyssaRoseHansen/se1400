@@ -58,7 +58,9 @@ main img {
     padding-left: 2rem;
     float: right;
 }
-
+#options {
+    font-style: italic;
+}
 #indeximg {
         background-image: url(Photos/pexels-pixabay-158063.jpg);
         height: 300px;
