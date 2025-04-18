@@ -361,7 +361,7 @@ h2 {
 #tree {
     background-image: url(Photos/20220506_115312.jpg);
     float: right;
-    width: 250px;
+    width: auto;
     height: 300px;
     box-shadow: -15px -10px 0px #4f7154fd;
     border-radius: 8px;
