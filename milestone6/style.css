@@ -156,7 +156,7 @@ nav a:hover {
 form{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 200 1fr;
+    grid-template-columns: 200px 1fr;
     gap: .75rem;
     width: 100%;
     margin: 20px;
