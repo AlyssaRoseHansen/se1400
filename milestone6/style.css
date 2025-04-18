@@ -18,7 +18,7 @@ body  {
 header { 
     text-decoration: none;
     background-color: #FFFFFF;
-    grid-column: 1 / 4;
+    grid-column: 1 / -1;
     grid-row: 1 / 2;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
@@ -46,10 +46,6 @@ header a {
     text-align: right;
 }
 
-main img {
-    padding-left: 2rem;
-    float: right;
-}
 #option {
     font-style: italic;
     font-size: small;
@@ -130,7 +126,6 @@ nav ul {
     margin: 0px;
     display: flex;
     flex-flow: row nowrap;
-    grid-column: 2 / -2;
 }
 
 nav ul li {
@@ -148,7 +143,24 @@ nav a {
 nav a:hover {
     background-color: #046d20ba;
 }
-
+#whitebar{
+    background-color: #FFFFFF;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+#greenbar{
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    background-color: #8ebe95ea;
+}
+form{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200 1fr;
+    gap: .75rem;
+    width: 100%;
+    margin: 20px;
+}
 main{
     grid-column: 2 / -2;
     grid-row: 4 / 6;
@@ -361,8 +373,8 @@ h2 {
 #tree {
     background-image: url(Photos/20220506_115312.jpg);
     float: right;
-    width: auto;
-    height: 300px;
+    width: 100%;
+    height: auto;
     box-shadow: -15px -10px 0px #4f7154fd;
     border-radius: 8px;
     padding: 20px;
@@ -374,6 +386,10 @@ h2 {
 #contact p{
     font-size: small;
     font-style: italic;
+}
+#shoppingcart{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 input, textarea{
@@ -388,7 +404,11 @@ input:focus, textarea:focus{
     outline: none;
     background-color: #b4d6b9;
 }
-#mysubmit {
+label {
+    padding: 10px;
+    text-align: right;
+}
+#mySubmit {
     width: 10rem;
     grid-column: 2 / 3;
     padding: 10px;
@@ -396,6 +416,9 @@ input:focus, textarea:focus{
     color: #666666;
     border: none;
     cursor: pointer;
+}
+#mySubmit:hover{
+    background-color: #3a4f3d;
 }
 footer{
     padding: 1rem;
@@ -459,13 +482,7 @@ footer img{
     }
     main {
         font-size: medium;
-    }
-    main img{
-        float: none;
-        width: 100%;
-        height: auto;
-        padding-left: 0px;
-    }
+}
     #shoppingcart {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
