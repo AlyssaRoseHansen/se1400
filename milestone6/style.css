@@ -149,7 +149,7 @@ nav a:hover {
     grid-row: 1 / 2;
 }
 #greenbar{
-    grid-column: 1 / -1;
+    grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: #8ebe95ea;
 }
