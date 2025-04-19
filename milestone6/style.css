@@ -34,10 +34,6 @@ h1{
     padding: 0.5rem;
     margin: 0;
 }
-main img{
-    padding-left: 2rem;
-    float: right;
-}
 h2{
     font-size: large;
     color: #4a7350;
@@ -237,38 +233,8 @@ h2 {
 main img{ 
     padding-left: 2rem;
     float: right;
-}
-
-#Spring img {
-    float: right;
-    position: absolute;
     box-shadow: -15px -10px 0px #a0d7a8;
     border-radius: 8px;
-    height: auto;
-}
-
-#Summer img {
-    float: right;
-    position: absolute;
-    box-shadow: -15px -10px 0px #a0d7a8;
-    border-radius: 8px;
-    height: auto;
-}
-
-#Fall img{
-    float: right;
-    position: absolute;
-    box-shadow: -15px -10px 0px #547659;
-    height: auto;
-    border-radius: 8px;
-}
-
-#Winter img {
-    float: right;
-    position: absolute;
-    box-shadow: -15px -10px 0px #3a4f3d;
-    border-radius: 8px;
-    height: auto;
 }
 
 #cafe, #cake, #fountain {
