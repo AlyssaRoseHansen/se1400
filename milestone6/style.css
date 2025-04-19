@@ -23,7 +23,6 @@ header {
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
     position: absolute;
-    display: flex;
 }
 h1{
     background-image: url(Photos/WildOasis.PNG);
