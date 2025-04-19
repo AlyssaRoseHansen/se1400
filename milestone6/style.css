@@ -506,9 +506,18 @@ footer img{
         grid-row: 2 / 3;
         z-index: 10;
     }
-    header h1 {
+    header{
         text-align: center;
         grid-row: 1 / 2;
+    }
+    h1 {
+        text-align: center;
+        grid-row: 1 / 2;
+    }
+    #whitebar{
+            background-color: #FFFFFF;
+            grid-column: 1 / 9;
+            grid-row: 1 / 2;
     }
     form {
         display: grid;
