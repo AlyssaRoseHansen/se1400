@@ -383,6 +383,7 @@ main img{
     box-shadow: -5px -5px 0px #4f7154fd;
     border-radius: 8px;
     padding: 20px;
+    float: right
 }
 #contact #cform{
     grid-column: 1 / 2;
