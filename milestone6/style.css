@@ -47,7 +47,7 @@ h2{
 header a {
     text-decoration: none;
     color: #658c6bea;
-    text-align: right;
+    text-align: left;
 }
 
 #option {
@@ -154,7 +154,7 @@ nav a:hover {
     grid-row: 1 / 2;
 }
 #greenbar{
-    grid-column: 2 / 9;
+    grid-column: 1 / 9;
     grid-row: 2 / 3;
     background-color: #8ebe95ea;
 }
@@ -177,7 +177,7 @@ h2 {
     text-align: left;
 }
 #Spring h3 {
-    color: #81a486 ;
+    color: #81a486;
     font-style: italic;
     font: large;
     font-weight: bold;
