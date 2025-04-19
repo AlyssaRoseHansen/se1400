@@ -21,6 +21,8 @@ header {
     grid-column: 2 / -2;
     grid-row: 1 / 2;
     font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+
 }
 h1{
     background-image: url(Photos/WildOasis.PNG);
