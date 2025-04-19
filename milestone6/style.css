@@ -171,7 +171,7 @@ h2 {
 }
 #shoppingcart img{
     float: right;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 #seasonal p {
     text-align: left;
@@ -478,7 +478,6 @@ footer img{
 }
     #shoppingcart {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 
