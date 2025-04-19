@@ -18,7 +18,7 @@ body  {
 header { 
     text-decoration: none;
     background-color: #FFFFFF;
-    grid-column: 2 / 3;
+    grid-column: 2 / -2;
     grid-row: 1 / 2;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
@@ -115,7 +115,7 @@ header a {
 nav {
     font-weight: bold;
     text-decoration: none;
-    grid-column: 2 / 3;
+    grid-column: 2 / -2;
     grid-row: 2 / 3;
     height: auto;
     background-color: #8ebe95ea;
