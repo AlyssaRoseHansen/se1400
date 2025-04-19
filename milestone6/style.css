@@ -381,7 +381,7 @@ form{
     grid-template-columns: 200px 400px;
     gap: .75rem;
     width: 100%;
-    margin: 20px;
+    margin: 10px;
 }
 
 input, textarea{
