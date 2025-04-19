@@ -37,6 +37,7 @@ h1{
 header img {
     padding-right: 0.5rem;
     grid-row: 1 / 2;
+    float: right;
 }
 h2{
     font-size: large;
