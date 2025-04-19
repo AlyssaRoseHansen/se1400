@@ -171,45 +171,47 @@ h2 {
     float: left;
     color: #4a7350;
 }
-
+#seasonal p {
+    text-align: left;
+}
 #Spring h3 {
     color: #81a486 ;
     font-style: italic;
     font: large;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Spring h4 {
     color: #81a486;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Summer h3 {
     color: #547659;
     font: large;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Summer h4 {
     color: #547659;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Fall h3{
     color: #4f7154fd;
     font: large;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Fall h4 {
     color: #4f7154fd;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Winter h3{
@@ -217,18 +219,17 @@ h2 {
     outline: #3a4f3d;
     font: large;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #Winter h4{
     color: #3e5641;
     font-weight: bold;
-    float: left;
+    text-align: left;
     font-style: italic;
 }
 #seasonal {
     text-align: left;
-    display: flex;
 }
 
 #Spring img {
@@ -370,15 +371,11 @@ h2 {
     margin: 20px;
 }
 #tree {
-    width: 40%;
+    width: 200px;
     height: auto;
     box-shadow: -5px -5px 0px #4f7154fd;
     border-radius: 8px;
     padding: 20px;
-}
-#contact img #tree{
-    grid-column: 2 / 3;
-    float: right;
 }
 #contact #cform{
     grid-column: 1 / 2;
