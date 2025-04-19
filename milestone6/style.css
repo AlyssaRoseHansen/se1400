@@ -234,7 +234,22 @@ h2 {
     text-align: left;
     display: block;
 }
-
+.spring{ 
+    width: 175px;
+    float: right;
+}
+.summer{ 
+    width: 175px;
+    float: right;
+}
+.fall{ 
+    width: 175px;
+    float: right;
+}
+.winter{ 
+    width: 175px;
+    float: right;
+}
 #Spring img {
     float: right;
     position: absolute;
