@@ -234,10 +234,8 @@ h2 {
     display: block;
 }
 .spring{ 
-    width: 175px;
+    padding-left: 2rem;
     float: right;
-    position: absolute;
-
 }
 .summer{ 
     width: 175px;
