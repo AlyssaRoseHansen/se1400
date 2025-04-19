@@ -333,7 +333,7 @@ main img{
 #gallery img {
     max-width: 300px;
     height: auto;
-    border-radius: none;
+    border-radius: 0px 0px 0px;
 }
 #contact h3{
     font-size: large;
