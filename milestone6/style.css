@@ -348,15 +348,7 @@ main img{
     width: 100%;
     margin: 20px;
 }
-#tree {
-    width: 200px;
-    height: auto;
-    box-shadow: -5px -5px 0px #4f7154fd;
-    border-radius: 8px;
-    padding: 20px;
-    float: right;
-    padding-left: 40px;
-}
+
 #contact #cform{
     grid-column: 1 / 2;
 }
