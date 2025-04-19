@@ -32,7 +32,8 @@ h1{
     padding-right: 1em;
     padding: 0.5rem;
     margin: 0;
-    background-size: 25px;
+    width: 30px;
+    height: auto;
 }
 
 h2{
