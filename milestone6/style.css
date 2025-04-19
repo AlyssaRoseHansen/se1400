@@ -31,6 +31,9 @@ h1{
     padding-right: 1em;
     padding: 0.5rem;
     margin: 0;
+    width: 100px;
+    height: auto;
+    position: absolute;
 }
 
 h2{
