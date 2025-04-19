@@ -121,6 +121,7 @@ nav {
     background-color: #8ebe95ea;
     position: sticky;
     top: 0;
+    line-height: 140%;
 }
 
 nav ul {
