@@ -231,27 +231,27 @@ h2 {
 }
 
 #Spring img {
-    float: right;
+    position: right;
     box-shadow: -15px -10px 0px #a0d7a8;
     border-radius: 8px;
     height: auto;
 }
 
 #Summer img {
-    float: right;
+    position: right;
     box-shadow: -15px -10px 0px #a0d7a8;
     border-radius: 8px;
     height: auto;
 }
 
 #Fall img{
-    Float: right;
+    position: right;
     box-shadow: -15px -10px 0px #547659;
     height: auto;
 }
 
 #Winter img {
-    background-position: right;
+    position: right;
     box-shadow: -15px -10px 0px #3a4f3d;
     height: auto;
 }
