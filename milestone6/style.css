@@ -22,7 +22,6 @@ header {
     grid-row: 1 / 2;
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-    position: absolute;
 }
 h1{
     background-image: url(Photos/WildOasis.PNG);
@@ -35,7 +34,6 @@ h1{
     margin: 0;
     width: 100px;
     height: auto;
-    position: absolute;
 }
 
 h2{
@@ -231,16 +229,6 @@ h2 {
 #seasonal {
     text-align: left;
     display: flex;
-}
-
-#seasonal h3 h4 p {
-    float: left;
-    position: absolute;
-}
-
-#seasonal img{
-    float: right;
-    position: absolute;
 }
 
 #Spring img {
