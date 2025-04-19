@@ -34,6 +34,10 @@ h1{
     margin: 0;
     width: 40px;
 }
+header img {
+    padding-right: 0.5rem;
+    grid-row: 1 / 2;
+}
 h2{
     font-size: large;
     color: #4a7350;
