@@ -330,7 +330,7 @@ main img{
     grid-template-columns: repeat(3, 1fr);
 }
 
-#galleryimg {
+#gallery img {
     max-width: 300px;
     height: auto;
     border-radius: none;
