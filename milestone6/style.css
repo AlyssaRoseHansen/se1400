@@ -253,6 +253,7 @@ h2 {
 #Winter img {
     position: right;
     box-shadow: -15px -10px 0px #3a4f3d;
+    border-radius: 8px;
     height: auto;
 }
 
