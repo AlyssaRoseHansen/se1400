@@ -21,7 +21,6 @@ header {
     grid-column: 2 / -2;
     grid-row: 1 / 2;
     font-family: 'Courier New', Courier, monospace;
-    text-align: right;
 }
 h1{
     background-image: url(Photos/WildOasis.PNG);
@@ -34,6 +33,7 @@ h1{
     margin: 0;
     width: 100px;
     height: auto;
+    position: absolute;
 }
 
 h2{
