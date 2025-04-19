@@ -25,7 +25,7 @@ header {
 }
 h1{
     background-image: url(Photos/WildOasis.PNG);
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
     background-origin: content-box;
     line-height: 140%;
@@ -377,11 +377,11 @@ h2 {
     padding: 20px;
 }
 #contact img{
-    columns: 2 / 3;
+    grid-column: 2 / 3;
     float: right;
 }
 #contact #cform{
-    columns: 1 / 2;
+    grid-column: 1 / 2;
 }
 #contact p{
     font-size: small;
