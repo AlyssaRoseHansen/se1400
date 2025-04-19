@@ -235,36 +235,42 @@ h2 {
 }
 
 #seasonal h3 h4 p {
-    position: left;
+    float: left;
+    position: absolute;
 }
 
 #seasonal img{
-    position: right;
+    float: right;
+    position: absolute;
 }
 
 #Spring img {
-    position: right;
+    float: right;
+    position: absolute;
     box-shadow: -15px -10px 0px #a0d7a8;
     border-radius: 8px;
     height: auto;
 }
 
 #Summer img {
-    position: right;
+    float: right;
+    position: absolute;
     box-shadow: -15px -10px 0px #a0d7a8;
     border-radius: 8px;
     height: auto;
 }
 
 #Fall img{
-    position: right;
+    float: right;
+    position: absolute;
     box-shadow: -15px -10px 0px #547659;
     height: auto;
     border-radius: 8px;
 }
 
 #Winter img {
-    position: right;
+    float: right;
+    position: absolute;
     box-shadow: -15px -10px 0px #3a4f3d;
     border-radius: 8px;
     height: auto;
@@ -371,7 +377,7 @@ h2 {
     text-align: left;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: repeat(2 minmax(0px, 100rem));
+    grid-template-columns: repeat(2, minmax(0px, 100rem));
     gap: .75rem;
     width: 100%;
     margin: 20px;
@@ -400,7 +406,7 @@ h2 {
 }
 
 #ticketform{
-    position: left;
+    float: left;
 }
 
 input, textarea{
