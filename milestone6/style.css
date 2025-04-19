@@ -482,6 +482,9 @@ footer img{
         max-width: 50%;
         height: auto;
     }
+    #gallery img{
+        max-width: 50%;
+    }
     main {
         font-size: medium;
 }
@@ -519,6 +522,12 @@ footer img{
     #gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    #gallery img{
+        max-width: 50%;
+    }
+    #tree {
+        display: none;
     }
     header {
         grid-row: 2 / 4;
