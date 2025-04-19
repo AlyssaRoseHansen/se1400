@@ -370,13 +370,13 @@ h2 {
     margin: 20px;
 }
 #tree {
-    width: 30%;
+    width: 40%;
     height: auto;
     box-shadow: -5px -5px 0px #4f7154fd;
     border-radius: 8px;
     padding: 20px;
 }
-#contact img{
+#contact img #tree{
     grid-column: 2 / 3;
     float: right;
 }
