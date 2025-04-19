@@ -481,14 +481,6 @@ footer img{
     .left-column, .right-column {
         display: none;
     }
-    body {
-        display: grid; 
-        grid-auto-columns: auto;
-        grid-template-rows: .5fr 1fr 1fr 6fr .5fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;   
-        padding: 0;
-    }
     nav {
         font: medium;
         font-weight: bold;
@@ -540,7 +532,9 @@ footer img{
     #abouthero {
         display: none;   
     }
-
+    #aboutsm{
+        float: center;
+    }
     #contacthero {
         display: none; 
     }
