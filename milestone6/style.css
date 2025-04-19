@@ -493,6 +493,10 @@ footer img{
         grid-row: 2 / 3;
         z-index: 10;
     }
+    header h1 {
+        text-align: center;
+        grid-row: 1 / 2;
+    }
     #gallery {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
