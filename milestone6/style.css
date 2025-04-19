@@ -378,7 +378,7 @@ h2 {
 form{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 200px 400px;
     gap: .75rem;
     width: 75%;
     margin: 20px;
