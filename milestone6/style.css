@@ -173,6 +173,8 @@ h2 {
 #shoppingcart img{
     padding-right: 2rem;
     float: right;
+    padding-left: 2rem;
+    float: right;
 }
 #seasonal p {
     text-align: left;
