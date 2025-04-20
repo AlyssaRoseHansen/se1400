@@ -30,7 +30,7 @@ h1{
     background-origin:content-box;
     line-height: 140%;
     padding-right: 1em;
-    padding: 0.5rem;
+    width: 50px;
     margin: 0;
 }
 
