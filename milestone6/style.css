@@ -284,6 +284,7 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     color: #FFFFFF;
     background-origin:content-box;
+    font-size: large;
 }
 
 #cake img {
@@ -308,6 +309,7 @@ h2 {
     background-origin:content-box;
     padding-left: 40px;
     padding-right: 20px;
+    font-size: large;
 }
 
 #fountain img {
