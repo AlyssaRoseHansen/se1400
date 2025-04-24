@@ -27,7 +27,6 @@ h1{
     background-image: url(Photos/FlowerLogo.png);
     background-position:right;
     background-repeat:no-repeat;
-    background-origin:content-box;
     line-height: 140%;
     padding-right: 1em;
     width: 50px;
