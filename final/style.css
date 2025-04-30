@@ -56,9 +56,11 @@ link{
     color: #d53631;
 }
 h2{
-    width: 2px;
     color: #555;
     grid-column:  3 / -2;
+}
+.hr{
+    width: 2px;
 }
 #logo{
     width: auto;
