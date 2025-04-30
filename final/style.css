@@ -54,11 +54,13 @@ link{
 h2{
     width: 2px;
     color: #555;
+    border-bottom: #555;
 }
 #logo #video {
     width: auto;
 }
 #indexhero {
+    background-image: url(images/solarsystem.jpg);
     width: auto;
 }
 #img1 img{
