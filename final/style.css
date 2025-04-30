@@ -1,4 +1,3 @@
-/* Structual Elements Go Here */
 body {
     background-color: #edeeef;
     color: #555;
@@ -20,7 +19,6 @@ nav ul {
     padding: 0px;
     margin: 0px;
 }
-
 nav ul li{   
     width: 100%;
 }
@@ -31,7 +29,6 @@ nav ul li a {
     display: block;
     padding: 10px;
 }
-
 :hover :active {
     background-color: #fff;
     color: #d53631;
@@ -54,14 +51,17 @@ p {
 link{
     color: #d53631;
 }
-heading borders {
+h2{
     width: 2px;
     color: #555;
 }
-logo hero video {
+#logo #video {
     width: auto;
 }
-small img text {
+#indexhero {
+    width: auto;
+}
+#img1 #img2 #img3 {
     width: 300px;
     padding-top: 10px;
     padding-left: 10px;
@@ -71,9 +71,6 @@ small img text {
     font-size: 0.75rem;
     float: right;
 }
-
-
-/* Media Query of 960 and less goes here */
 
 @media screen and (max-width: 960px) {
     nav ul{
