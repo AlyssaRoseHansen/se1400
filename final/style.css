@@ -57,7 +57,11 @@ h2{
     border-bottom: 2px solid #555;
     grid-column:  3 / -2;
 }
-#logo #video {
+#logo{
+    width: auto;
+    grid-column: 2 / 3;
+}
+#video {
     width: auto;
 }
 #indexhero {
