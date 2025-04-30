@@ -64,7 +64,6 @@ h2{
     width: 2px;
 }
 #logo{
-    width: auto;
     grid-column: 2 / 3;
 }
 #video {
