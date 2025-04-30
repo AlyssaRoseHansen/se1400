@@ -32,9 +32,15 @@ nav ul li a {
     padding: 10px;
     text-decoration: none;
 }
-:hover :active {
+nav :hover {
     background-color: #fff;
     color: #d53631;
+}
+:active{
+    :hover {
+        background-color: #fff;
+        color: #d53631;
+    } 
 }
 main{
     grid-column: 3 / -2;
