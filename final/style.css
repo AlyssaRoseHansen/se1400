@@ -61,8 +61,57 @@ h2{
 #indexhero {
     width: auto;
 }
-#img1 #img2 #img3 {
+#img1 img{
     width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-style: italic;
+    font-size: 0.75rem;
+    float: right;
+}
+
+#img1 p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-style: italic;
+    font-size: 0.75rem;
+    float: right;
+}
+#img2 img{
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-style: italic;
+    font-size: 0.75rem;
+    float: right;
+}
+
+#img2 p{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-style: italic;
+    font-size: 0.75rem;
+    float: right;
+}#img3 img{
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-style: italic;
+    font-size: 0.75rem;
+    float: right;
+}
+
+#img3 p{
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 0px;
