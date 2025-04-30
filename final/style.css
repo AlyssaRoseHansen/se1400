@@ -71,6 +71,8 @@ h2{
 }
 #logo{
     grid-column: 2 / 3;
+    width: 75px;
+    height: auto;
 }
 #video {
     width: auto;
