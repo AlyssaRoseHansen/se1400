@@ -78,10 +78,8 @@ h2{
     width: auto;
 }
 #indexhero {
-    background-image: url(images/solarsystem.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
+    width: 300px;
+    height: auto;
     grid-column: 3 / -2;
 }
 #img1 img{
