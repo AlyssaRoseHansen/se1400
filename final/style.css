@@ -1,0 +1,117 @@
+/* Structual Elements Go Here */
+body {
+    background-color: #edeeef;
+    color: #555;
+    margin: 0px;
+    font-family: lato;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6 minmax(0px, 175px)) minmax(0px, 1fr);
+    grid-row: auto;
+}
+nav{
+    grid-column: 2 / 3;
+    background-color: #edeeef;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li{   
+    width: 100%;
+}
+nav ul li a {
+    width: 100%;
+    border-bottom: none;
+    color: #555;
+    display: block;
+    padding: 10px;
+}
+
+:hover :active {
+    background-color: #fff;
+    color: #d53631;
+}
+main{
+    grid-column: 3 / -2;
+    background-color: #fff;
+    padding: 20px;
+}
+footer {
+    grid-column: 3 / -2;
+    background-color: #2d5ba6;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 20px;
+}
+p {
+    line-height: 1.25rem;
+}
+link{
+    color: #d53631;
+}
+heading borders {
+    width: 2px;
+    color: #555;
+}
+logo hero video {
+    width: auto;
+}
+small img text {
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    font-style: italic;
+    font-size: 0.75rem;
+    float: right;
+}
+
+
+/* Media Query of 960 and less goes here */
+
+@media screen and (max-width: 960px) {
+    nav ul{
+        flex-direction: row;
+        display: block;
+        align-items: baseline;
+    }
+    nav main footer {
+        grid-column: 2 / -2;
+    }
+    small img text{
+        width: 100%;
+        padding: 0px;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
